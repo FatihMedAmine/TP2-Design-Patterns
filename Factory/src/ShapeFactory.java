@@ -8,6 +8,8 @@ public class ShapeFactory {
                 return new Square();
             case "TRIANGLE":
                 return new Triangle();
+            case "HEXAGON":
+                return new Hexagon();
             default:
                 System.out.println("Unknown shape type");
                 return null;
